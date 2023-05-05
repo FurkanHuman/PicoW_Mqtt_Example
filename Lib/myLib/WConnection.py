@@ -15,7 +15,7 @@ class WConnection:
         self._ssid = ""
         self._password = ""
 
-        network.country('TR')
+        network.country('XX') # please change your country
         self.wlan = network.WLAN(network.STA_IF)
         self.wlan.active(True)
 
